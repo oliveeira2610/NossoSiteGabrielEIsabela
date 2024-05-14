@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('IMG_5215.jpg');
+    background-size: cover; /* Garante que a imagem de fundo cubra todo o corpo */
+    background-position:top; /* Centraliza a imagem de fundo */
+    height: 100vh;
+    
+    background-repeat: no-repeat; /
+}
+
+.nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+}
+.nav a:hover {
+    text-decoration: underline;
+}
+.main {
+    padding: 20px;
+    text-align: center;
+    width: 100vh;
+    height: 100%;
+    display: flex;
+}
+.card-text{
+    background-color: #d8d8d8ab;
+    width: 30%;
+    height: 40%;
+    border-radius: 5%;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    display: grid;
+}
+.main h2 {
+    font-size: 1.5em;
+    color: #333;
+}
